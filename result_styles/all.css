@@ -1,0 +1,666 @@
+@media screen and (max-width: 1650px) {
+  header {
+    max-width: 1300px !important; }
+    header nav .logo {
+      width: 40% !important; }
+    header nav ul {
+      width: 60% !important; }
+    header #image_women-car {
+      width: 50%; }
+    header #image_bush {
+      width: 15%; }
+  .resorts {
+    margin: 100px auto auto auto !important;
+    width: 90% !important; }
+    .resorts .resorts_description h2 {
+      font-size: 40px !important; }
+    .resorts .resorts_description p {
+      font-size: 20px !important; } }
+
+@media screen and (max-width: 1350px) {
+  header {
+    max-width: 940px !important; }
+    header nav .logo {
+      width: 30% !important; }
+      header nav .logo .name_company {
+        font-size: 40px !important; }
+    header nav ul {
+      width: 70% !important; }
+      header nav ul button {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        padding-left: 35px !important;
+        padding-right: 35px !important; }
+    header .header_down .description {
+      padding-top: 200px !important; }
+      header .header_down .description p {
+        margin-bottom: 0px; }
+      header .header_down .description button {
+        margin-top: 40px !important; }
+    header .header_down #image_bush {
+      margin-top: 650px !important; }
+  .resorts .resorts_description h2 {
+    font-size: 35px !important;
+    margin-bottom: 0px; }
+  .resorts .resorts_description hr {
+    margin-top: 10px !important; }
+  .resorts .resorts_description p {
+    line-height: 25px !important;
+    margin-top: 10px; }
+  .resorts .resorts_description button {
+    margin-top: 20px !important; } }
+
+@media screen and (max-width: 980px) {
+  .form form {
+    width: 90% !important; }
+  .button_menu {
+    display: block !important; }
+  header {
+    width: 90% !important; }
+    header .header_down .description {
+      padding-top: 100px !important;
+      margin: 0 auto !important; }
+      header .header_down .description h1 {
+        text-align: center; }
+      header .header_down .description p {
+        text-align: center; }
+      header .header_down .description button {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 50px auto !important; }
+    header nav ul {
+      display: none !important; }
+    header .header_down #image_women-car {
+      display: none !important; }
+    header .header_down #image_bush {
+      display: none !important; }
+  .resorts {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important; }
+    .resorts .slider {
+      width: 90% !important; }
+      .resorts .slider .fotorama .price {
+        font-size: 20px !important; }
+    .resorts .resorts_description {
+      width: 90% !important; }
+      .resorts .resorts_description h2 {
+        margin-top: 20px !important; }
+      .resorts .resorts_description p {
+        text-align: justify; }
+  .buying .buying_main {
+    text-align: center; }
+  footer {
+    max-height: 200px !important;
+    width: 90% !important; }
+    footer nav {
+      display: none; } }
+
+@media screen and (max-width: 480px) {
+  .button_up {
+    bottom: 70px !important; }
+  .form form {
+    height: 420px !important; }
+    .form form input {
+      min-width: 250px !important; }
+  header .header_down .description {
+    margin: 0 auto !important; }
+    header .header_down .description h1 {
+      font-size: 50px !important;
+      line-height: 50px !important; }
+  .resorts .slider .fotorama .price {
+    display: none !important; }
+  .resorts .slider .fotorama .city-country {
+    display: none !important; }
+  .buying .buying_main p {
+    font-size: 30px !important; }
+  .buying .buying_main h2 {
+    width: 80% !important;
+    font-size: 45px !important; } }
+
+.buying {
+  margin-top: 150px !important;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  max-height: 900px;
+  background-image: url("../images/mount.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .buying .buying_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+    max-height: 900px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    /*padding-top: 25vh;*/ }
+    .buying .buying_main p {
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: white;
+      font-size: 38px; }
+    .buying .buying_main h2 {
+      color: white;
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-weight: 800;
+      font-size: 60px; }
+    .buying .buying_main button {
+      -webkit-transition-property: -webkit-transform;
+      transition-property: -webkit-transform;
+      transition-property: transform;
+      transition-property: transform, -webkit-transform;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      border: none;
+      font-size: 25px;
+      margin: 50px auto;
+      color: white;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background-color: #3984F3;
+      padding-left: 50px;
+      padding-right: 50px; }
+    .buying .buying_main button:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); }
+
+footer {
+  max-width: 785px;
+  width: 100%;
+  max-height: 300px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto; }
+  footer nav {
+    width: 100%; }
+    footer nav ul {
+      padding-left: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      footer nav ul li {
+        list-style-type: none; }
+    footer nav a {
+      color: #2b323a;
+      text-decoration: none;
+      font-size: 18px; }
+  footer .copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 400px;
+    width: 100%;
+    font-size: 15px; }
+    footer .copyright #years {
+      color: #2b323a; }
+    footer .copyright #name_company {
+      padding-left: 10px;
+      color: #c6c6c6; }
+  footer .concacts {
+    margin-top: 20px !important;
+    margin: 0 auto;
+    max-width: 260px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+header {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+  max-height: 1160px; }
+  header nav {
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    header nav .logo {
+      width: 55%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      header nav .logo img {
+        width: 48px;
+        height: 48px; }
+      header nav .logo .name_company {
+        padding-left: 22px;
+        color: #4497f3;
+        font-size: 50px; }
+    header nav ul {
+      width: 45%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      header nav ul a {
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        font-size: 22px;
+        text-decoration: none;
+        color: #d1d0d0; }
+      header nav ul a:hover {
+        color: #565958;
+        -webkit-transition: 0.4s;
+        transition: 0.4s; }
+      header nav ul li {
+        list-style-type: none; }
+      header nav ul button {
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        cursor: pointer;
+        color: #3984f3;
+        background-color: white;
+        font-size: 22px;
+        border: 3px solid #3984f3;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 45px;
+        padding-right: 45px; }
+      header nav ul button:hover {
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        background-color: #3984f3;
+        color: white; }
+  header .header_down {
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
+    header .header_down .description {
+      padding-top: 295px; }
+      header .header_down .description h1 {
+        margin-top: 0;
+        line-height: 80px;
+        font-weight: 800;
+        max-width: 515px;
+        font-size: 75px;
+        color: #091e40; }
+      header .header_down .description p {
+        line-height: 35px;
+        font-size: 22px;
+        color: #81858e;
+        max-width: 500px; }
+      header .header_down .description button {
+        position: relative;
+        z-index: 5;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        transition-property: transform;
+        transition-property: transform, -webkit-transform;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        cursor: pointer;
+        margin-top: 60px;
+        border: none;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 45px;
+        padding-right: 45px;
+        color: white;
+        background-color: #3984f3; }
+      header .header_down .description button:hover {
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1); }
+    header .header_down #image_women-car {
+      /*		transition-property: top;
+			transition-duration: 1s;*/
+      position: absolute;
+      margin-top: 50px;
+      right: -30px; }
+    header .header_down #image_bush {
+      position: absolute;
+      margin-top: 720px;
+      left: -60px; }
+
+#home_item {
+  color: #4497f3; }
+
+body {
+  margin: 0;
+  overflow-x: hidden; }
+
+* {
+  font-family: 'Nunito Sans', sans-serif; }
+
+.button_menu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 30px;
+  right: 0;
+  cursor: pointer; }
+  .button_menu .button_menu_line1 {
+    width: 50px;
+    height: 4px;
+    background-color: #3984F3;
+    display: block; }
+  .button_menu .button_menu_line2 {
+    margin-top: 10px;
+    width: 50px;
+    height: 4px;
+    background-color: #3984F3; }
+  .button_menu .button_menu_line3 {
+    margin-top: 10px;
+    width: 50px;
+    height: 4px;
+    background-color: #3984F3; }
+
+.mobile_menu {
+  background-color: #3984F3;
+  width: 100%;
+  display: none;
+  position: absolute; }
+  .mobile_menu nav {
+    width: 100%;
+    margin-top: 80px; }
+    .mobile_menu nav ul {
+      margin-top: 0;
+      margin-left: 0;
+      padding-left: 0; }
+      .mobile_menu nav ul li {
+        margin-top: 10px;
+        text-align: center;
+        list-style-type: none; }
+    .mobile_menu nav a {
+      -webkit-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      text-align: center;
+      font-size: 40px;
+      text-decoration: none;
+      color: white; }
+    .mobile_menu nav a::before {
+      content: '';
+      display: block;
+      background-color: white;
+      width: 100%;
+      height: 2px; }
+    .mobile_menu nav a:hover {
+      color: black; }
+
+.button_up {
+  font-weight: 800;
+  text-align: center;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  display: none;
+  z-index: 2;
+  cursor: pointer;
+  max-width: 40px;
+  max-height: 40px;
+  width: 100%;
+  height: 100vh;
+  bottom: 15px;
+  right: 15px;
+  position: fixed;
+  font-size: 30px;
+  padding: 15px;
+  color: white;
+  border-radius: 50%;
+  background-color: #3984F3; }
+
+.button_up:hover {
+  -webkit-box-shadow: 0px 0px 35px 14px rgba(34, 60, 80, 0.5);
+  box-shadow: 0px 0px 35px 14px rgba(34, 60, 80, 0.5); }
+
+.form {
+  background-color: rgba(0, 125, 215, 0.7);
+  z-index: 2;
+  position: fixed;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; }
+  .form form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 600px;
+    height: 480px;
+    background-color: white;
+    border-radius: 40px;
+    z-index: 2; }
+    .form form .button_close {
+      -ms-flex-item-align: end;
+      align-self: flex-end;
+      margin-right: 40px;
+      max-width: 40px;
+      width: 100%;
+      max-height: 70px;
+      text-align: center;
+      display: block;
+      cursor: pointer;
+      background-color: #e76868;
+      color: white;
+      font-size: 45px; }
+    .form form .message {
+      font-size: 25px;
+      padding-top: 20px;
+      margin: 0 auto; }
+    .form form input {
+      outline: none;
+      font-size: 23px;
+      margin-top: 20px !important;
+      padding-left: 10px;
+      margin: 0 auto;
+      max-width: 50%;
+      border: none;
+      background-color: white;
+      border-bottom: 1px solid #3984f3; }
+    .form form input:focus::-webkit-input-placeholder {
+      color: #E76868; }
+    .form form input:focus::-moz-placeholder {
+      color: #E76868; }
+    .form form input:focus:-ms-input-placeholder {
+      color: #E76868; }
+    .form form input:focus::-ms-input-placeholder {
+      color: #E76868; }
+    .form form input:focus::placeholder {
+      color: #E76868; }
+    .form form #submit {
+      cursor: pointer;
+      font-size: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 50px !important;
+      border-radius: 10px;
+      text-align: center;
+      background-color: #3984f3;
+      color: white; }
+
+.resorts {
+  margin: 400px auto auto auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  max-width: 1600px;
+  width: 100%; }
+  .resorts .slider {
+    width: 50%; }
+    .resorts .slider .fotorama .wrap_description {
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .resorts .slider .fotorama .wrap_description .price {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        font-size: 24px;
+        color: white;
+        width: 110px;
+        background-color: #3984f3;
+        text-align: center; }
+      .resorts .slider .fotorama .wrap_description .city-country {
+        margin-bottom: 0;
+        display: inline-block;
+        background-color: #3984f3;
+        padding-left: 23px;
+        padding-right: 23px;
+        font-size: 22px;
+        color: white; }
+  .resorts .resorts_description {
+    width: 40%;
+    max-width: 575px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .resorts .resorts_description h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 50px;
+      color: #091e40; }
+    .resorts .resorts_description hr {
+      margin-top: 30px;
+      margin-left: 0;
+      width: 80px;
+      height: 6px;
+      border: none;
+      background-color: #3984f3; }
+    .resorts .resorts_description p {
+      color: #81858e;
+      font-size: 22px;
+      line-height: 40px; }
+    .resorts .resorts_description button {
+      -webkit-transition-property: -webkit-transform;
+      transition-property: -webkit-transform;
+      transition-property: transform;
+      transition-property: transform, -webkit-transform;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      margin-top: 40px;
+      max-width: 200px;
+      font-size: 22px;
+      color: white;
+      background-color: #3984f3;
+      border: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 65px;
+      padding-right: 65px; }
+    .resorts .resorts_description button:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); }

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Test site</title>
+	<link rel="stylesheet" type="text/css" href="result_styles/all.css">
+	<meta name="viewport" content="width=device-width"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<duv class="button_menu">
+	<div class="button_menu_line1"></div>
+	<div class="button_menu_line2"></div>
+	<div class="button_menu_line3"></div>
+</duv>
+
+<div class="mobile_menu">
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Video</a></li>
+			<li><a href="#">Destinations</a></li>
+			<li><a href="#">Booking</a></li>
+			<li><a href="#">Sign up</a></li>
+		</ul>
+	</nav>
+</div>
+
+
+
+<div class="button_up">
+	^
+</div>
+
+<div class="form">
+	<form action="#" method="POST">
+		<div class="button_close" title="Close this">×</div>
+		<div class="message">Please enter your data</div>
+		<input type="text" name="name" placeholder="Name" pattern="[^0-9]{3,20}" maxlength="20" required>
+		<input type="mail" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="40" required>
+		<input type="text" name="phoneNumber" placeholder="Phone number" pattern="[0-9]{0,20}" required>
+		<input type="submit" value="Submit" id="submit">
+	</form>
+</div>
+
+
+<header>
+	<nav>
+		<div class="logo">
+			<img src="images/logo.png" alt="Awesome image">
+			<div class="name_company">Rhea</div>
+		</div>
+		<ul>
+			<li><a href="#" id="home_item">Home</a></li>
+			<li><a href="#">Video</a></li>
+			<li><a href="#">Destinations</a></li>
+			<li><a href="#">Booking</a></li>
+			<button>Sign up</button>
+		</ul>
+	</nav>
+
+	<div class="header_down">
+		<div class="description">
+			<h1>Travel around
+			the world</h1>
+			<p>Plan and book your perfect trip with expert advice, 
+			travel tips, destination information and inspiration from us.</p>
+			<button>Sign Up Now</button>
+		</div>
+		<img src="images/women-car.png" alt="Awesome image" id="image_women-car">
+		<img src="images/bush.png" alt="Awesome image" id="image_bush">
+	</div>
+</header> 
+
+<div class="resorts">
+	<div class="slider">
+		<div class="fotorama"
+			data-width="100%"
+     		data-ratio="800/500"
+
+	     	data-loop="true"
+	     	data-autoplay="3000"
+	     	data-nav="false">
+	     	<div data-img="images/maldives.png" class="wrap_description">
+	     		<div class="price">$410</div>
+	     		<div class="city-country">Kuramathi, Maldives</div>
+	     	</div>
+	     	<div data-img="images/indonesia.png" class="wrap_description"> 
+	     		<div class="price">$640</div>
+	     		<div class="city-country">Raja Ampat, Indonesia</div>
+	     	</div>
+	     	<div data-img="images/nepal.png" class="wrap_description">
+	     		<div class="price">$560</div>
+	     		<div class="city-country">Kathmandu, Nepal</div>
+	     	</div>
+		</div>
+	</div>
+
+	<div class="resorts_description">
+		<h2>Amazing places to enjoy 
+		your travel</h2>
+		<hr>
+		<p>Etiam facilisis, sapien quis porta dignissim, orci nisi pharetra dui, varius vehicula ligula nulla sit amet lorem. Aenean in vestibulum quam. Cras commodo varius neque, non gravida diam ultrices nec. Cras nulla mauris, fermentum nec libero in.</p>
+		<button>Explore</button>
+	</div>
+</div>
+
+<div class="buying">
+	<div class="buying_main">
+		<p>WE WILL SEE YOU</p>
+		<h2>Enjoy 30% Off On First Trip</h2>
+		<button id="button_buy_ticket">Buy the ticket</button>
+	</div>
+</div>	
+
+<footer>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Video</a></li>
+			<li><a href="#">Destinations</a></li>
+			<li><a href="#">Booking</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Pricing</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+		</ul>
+	</nav>
+	<div class="copyright">
+		<p id="years">Copyright 2000 - 2020</p>
+		<p id="name_company">Rhea - Travel Around The World</p>
+	</div>
+	<div class="concacts">
+		<img src="images/youtube.png" alt="Awesome image">
+		<img src="images/facebook.png" alt="Awesome image">
+		<img src="images/twitter.png" alt="Awesome image">
+		<img src="images/mail.png" alt="Awesome image">
+	</div>
+</footer>
+
+
+<!-- <form>
+	<fieldset>
+		<legend>Contact information</legend>
+		<input type="text" name="name">
+	</fieldset>
+</form> -->
+
+
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
